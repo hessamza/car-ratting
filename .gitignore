@@ -13,3 +13,5 @@
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+/deployment/setting-developement/.docker/nginx/access.log
+/deployment/setting-developement/.docker/nginx/error.log
