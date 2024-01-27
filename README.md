@@ -2,14 +2,14 @@
 
 This project is a code-challenge implementation that includes the following features:
 
-| Challenge                                                                                                            | Description                             | Solution                      |
-|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-------------------------------|
-| **Car Entity**: Create the Car entity with the following fields: brand, model, and color.                            | [ description](#car_entity)             | [Solution](http://github.com) |
-| **Reviews Entity**: Create the Reviews entity with the following fields: star rating (from 1 to 10) and review text. | [ description](#reviews_entity)         | [Solution](http://github.com) |
-| **RESTful API**: Implement a simple RESTful API using Symfony 6 and API Platform 3.                                  | [ description](#restful_api)            | [Solution](http://github.com) |
-| **PostgreSQL DB**: Utilize PostgreSQL DB as the database.                                                            | [ description](#postgresql_db)          | [Solution](http://github.com) |
-| **PHP 8**: Use PHP 8 as the programming language.                                                                    | [ description](#php_8)                  | [Solution](http://github.com) |
-| **Dockerized Environment**: Create a dockerized environment for the app.                                             | [ description](#dockerized_environment) | [Solution](http://github.com) |
+| Challenge                                                                                                            | Description                             | Solution                                                                              |
+|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------|---------------------------------------------------------------------------------------|
+| **Car Entity**: Create the Car entity with the following fields: brand, model, and color.                            | [ description](#car_entity)             | [Solution](https://github.com/hessamza/car-ratting?tab=readme-ov-file#car_entity)     |
+| **Reviews Entity**: Create the Reviews entity with the following fields: star rating (from 1 to 10) and review text. | [ description](#reviews_entity)         | [Solution](https://github.com/hessamza/car-ratting?tab=readme-ov-file#reviews_entity) |
+| **RESTful API**: Implement a simple RESTful API using Symfony 6 and API Platform 3.                                  | [ description](#restful_api)            | [Solution](https://github.com/hessamza/car-ratting?tab=readme-ov-file#restful_api)    |
+| **PostgreSQL DB**: Utilize PostgreSQL DB as the database.                                                            | [ description](#postgresql_db)          | [Solution](http://github.com)                                                         |
+| **API Test                                                                                                           | [ description](#api_tests)              | [Solution](https://github.com/hessamza/car-ratting?tab=readme-ov-file#api_tests)      |
+| **Dockerized Environment**: Create a dockerized environment for the app.                                             | [ description](#dockerized_environment) | [Solution](http://github.com)                                                         |
 
 To get started with the project, follow the steps below:
 
@@ -173,14 +173,15 @@ The AddReviewToCarAction is a class that handles the process of adding a review 
 - [POSTGRESQL DB](#postgresql_db)
   DATABASE_URL="postgresql://rating_user:123456@rating-postgres:5432/rating_db?serverVersion=16&charset=utf8"
     yaml doctrine: dbal: # ... driver: 'pdo_pgsql'
+
+
 To run test :
 ``` 
 docker exec -it rating-php   ./vendor/bin/phpunit
 ```
 ---
 
-
-## API Tests
+- [API Test](#api-tests)
 
 The `ApiTest` class contains a set of test methods that verify the functionality of the API endpoints for the car review system. These tests are implemented using the Symfony testing framework.
 
