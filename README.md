@@ -20,7 +20,7 @@ bash first_setup.sh
 ```
 
 
- Visit `http://localhost:8002` in your browser to access the application.
+ Visit `http://localhost:8003` in your browser to access the application.
 
 If you have any questions or need further assistance, feel free to contact me at [hessamvfx@gmail.com](mailto:hessamvfx@gmail.com).
 
